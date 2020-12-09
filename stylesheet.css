@@ -1,0 +1,40 @@
+*{
+  margin:0;
+  padding:0;
+  margin-block-start:0;
+  margin-block-end:0;
+  margin-inline-start:0;
+  margin-inline-end:0;
+}
+
+html, body{
+	width:100%;
+	height:100%;
+    color: antiquewhite;
+	background-color:purple;
+    background-image: url("pix/Game_of_life_pulsar.gif");
+    background-repeat: repeat;
+}
+
+#frame{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #333d;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#fullscreenpic{
+    height: 90%;
+}
